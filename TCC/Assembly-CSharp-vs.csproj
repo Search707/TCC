@@ -46,7 +46,33 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GameWorld.cs" />
+     <Compile Include="Assets\Scripts\BattleSolo\BattleSolo.cs" />
+     <Compile Include="Assets\Scripts\BattleSolo\Managers\BattleSoloBattleManager.cs" />
+     <Compile Include="Assets\Scripts\BattleSolo\Managers\BattleSoloFoeShipManager.cs" />
+     <Compile Include="Assets\Scripts\BattleSolo\Managers\BattleSoloGuiManager.cs" />
+     <Compile Include="Assets\Scripts\BattleSolo\Managers\BattleSoloInputManager.cs" />
+     <Compile Include="Assets\Scripts\BattleSolo\Managers\BattleSoloPlayerActionManager.cs" />
+     <Compile Include="Assets\Scripts\BattleSolo\Managers\BattleSoloPlayerShipManager.cs" />
+     <Compile Include="Assets\Scripts\BattleSolo\Managers\BattleSoloSceneManager.cs" />
+     <Compile Include="Assets\Scripts\Characters\GroundBattle\Archer.cs" />
+     <Compile Include="Assets\Scripts\Characters\GroundBattle\Warrior.cs" />
+     <Compile Include="Assets\Scripts\Characters\ShipMembers\Captain.cs" />
+     <Compile Include="Assets\Scripts\GameMisc\Building.cs" />
+     <Compile Include="Assets\Scripts\GameMisc\Character.cs" />
+     <Compile Include="Assets\Scripts\GameMisc\Panel.cs" />
+     <Compile Include="Assets\Scripts\GameMisc\ShipGun.cs" />
+     <Compile Include="Assets\Scripts\Misc\TargetDisplay.cs" />
+     <Compile Include="Assets\Scripts\Misc\Touchble.cs" />
+     <Compile Include="Assets\Scripts\PersistentData\GameData.cs" />
+     <Compile Include="Assets\Scripts\PersistentData\PlayerData.cs" />
+     <Compile Include="Assets\Scripts\Ship\Guns\Cannon.cs" />
+     <Compile Include="Assets\Scripts\Ship\Guns\SmallCannon.cs" />
+     <Compile Include="Assets\Scripts\Ship\Ship.cs" />
+     <Compile Include="Assets\Scripts\Town\Buildings\MercenaryGuild.cs" />
+     <Compile Include="Assets\Scripts\Town\Managers\TownCharactersManager.cs" />
+     <Compile Include="Assets\Scripts\Town\Managers\TownGuiManager.cs" />
+     <Compile Include="Assets\Scripts\Town\Managers\TownInputManager.cs" />
+     <Compile Include="Assets\Scripts\Town\Town.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
